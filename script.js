@@ -15,12 +15,3 @@ mode.addEventListener('click', () =>{
     mode.classList.remove('fa-sun');
     form.classList.remove('dark');
 });
-
-function exibirPrompt() {
-    var username = document.getElementById("name").value;
-    var password = document.getElementById("password").value;
-  
-    if (username === "" || password === "") {
-      alert("Por favor, preencha todas as informações de login.");
-  }
-  }
